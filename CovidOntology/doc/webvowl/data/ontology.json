@@ -1,0 +1,2803 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics" ],
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Doctor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DosesTypes"
+    },
+    "subClasses" : [ "7", "8", "9", "10", "11", "12" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GenderType"
+    },
+    "union" : [ "14", "15", "16" ],
+    "attributes" : [ "union", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VaccinationStatus"
+    },
+    "subClasses" : [ "24", "25", "26", "27" ],
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DiagnosedWithCovid"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CovidCareCenter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HealthOrganization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sinopharm"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "subClasses" : [ "31", "48", "36" ],
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nurse"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CovidSymptoms"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "SeverePneuomonia"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "FeelingTired"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Sneezing"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "DryCough"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "BreathingIssue"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "SevereFever"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "SevereBodyPain"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "nasalCongesion"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "PainInThroat"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AstraZeneca"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Moderna"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pfizer"
+    },
+    "id" : "8",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Female"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vaccination"
+    },
+    "subClasses" : [ "23", "5", "73" ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SinoVac"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Patient"
+    },
+    "subClasses" : [ "28", "84", "85", "77" ],
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AzadKashmir"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VariantTypes"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Delta"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Alpha"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Omicron"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transgender"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "FirstVaccinationDoseInPakistan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Entity"
+    },
+    "subClasses" : [ "32", "22" ],
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GilgitBaltistan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diagnosis"
+    },
+    "subClasses" : [ "118", "119", "120" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherDiseases"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Others"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "BloodPressure"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Cancer"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "HeartAttack"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "none"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Sugar"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CovidVariants"
+    },
+    "subClasses" : [ "46" ],
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "non-Vaccinated"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Moderate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NCOC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UntestedForCovid"
+    },
+    "attributes" : [ "external" ],
+    "id" : "142",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "intersection" : [ "84", "18" ],
+    "attributes" : [ "anonymous", "intersection" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "intersection" : [ "18", "77" ],
+    "attributes" : [ "anonymous", "intersection" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "intersection" : [ "28", "18" ],
+    "attributes" : [ "anonymous", "intersection" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mild"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Statistics"
+    },
+    "subClasses" : [ "122", "147", "101" ],
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Male"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HealthCareProfessionals"
+    },
+    "subClasses" : [ "0", "52" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "novaVax"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoosterDose"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Balochistan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CovidOrigin"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "China"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TerristrialAreas"
+    },
+    "subClasses" : [ "82", "66", "38" ],
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FirstDose"
+    },
+    "id" : "24",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KPK"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sindh"
+    },
+    "attributes" : [ "external" ],
+    "id" : "160",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Islamabad"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place"
+    },
+    "subClasses" : [ "97", "3", "72" ],
+    "attributes" : [ "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreventiveMeasures"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Suspesion_Of_Flights"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "GatheringsNotAllowed"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "SmartLockdown"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "PakBordersClosed"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "6FeetDistance"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "UseFaceMasks"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExposureToCovid"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "InfectedCo-Worker"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "CloseContact"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "InfectedFamilyMember"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "InfectedCo-Passenger"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Gathering"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Punjab"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvinceWiseStatistics"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "SindhCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "BalochistanCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "PunjabCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "KPKCases"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "147",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TerristrialWiseStatistics"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "IslamabadCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "GilgitBaltistanCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "KashmirCases"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vaccinated"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CountryWiseStatistics"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "RecoveredCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "ConfirmedCases"
+      }
+    }, {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "DeceasesCases"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan",
+      "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+      "labels" : {
+        "IRI-based" : "Pakistan"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "1", "14", "18", "15", "142", "16" ],
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Severe"
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provinces"
+    },
+    "subClasses" : [ "89", "160", "124", "98" ],
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "103" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "PopulationPercentage"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis",
+    "inverse" : "20",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasDiagnosis"
+    },
+    "cardinality" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "PassedVirusTo"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "SymptomsOtherThanCovid"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "FirstCovidCase"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "TotalCasesInGilgitBaltistan"
+    },
+    "domain" : "38",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "PatientSymptoms"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "CaseID"
+    },
+    "domain" : "28",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasTotalDosesAdmiistered"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasCovidVariants"
+    },
+    "domain" : "45",
+    "attributes" : [ "object", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "ConfirmedCases"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "Metrics"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasTakenBy"
+    },
+    "domain" : "57",
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "DoseType"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasGender"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "FirstCovidSpreadFrom"
+    },
+    "domain" : "34",
+    "attributes" : [ "object", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "AdultsPopulationPercentage"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "wasSpreadBy"
+    },
+    "domain" : "28",
+    "attributes" : [ "object", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isDiagnosedOf"
+    },
+    "domain" : "19",
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "TotalCasesInKashmir"
+    },
+    "domain" : "66",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasFirstDose"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "ChildrenPopulationPercentage"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasKashmirCases"
+    },
+    "domain" : "72",
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "YouthPopulationPercentage"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasOtherDiseases"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasDoseType"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "Cases"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "TotalCasesInIslamabad"
+    },
+    "domain" : "82",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "DeceasedCases"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "TotalCasesInKPK"
+    },
+    "domain" : "89",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "isPatientSufferedFromCovid"
+    },
+    "domain" : "92",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "FirstVaccineInPakistan"
+    },
+    "domain" : "73",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "hasBalochistanCases"
+    },
+    "domain" : "97",
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "TerristrialTotalCovidCases"
+    },
+    "domain" : "101",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasStatistics"
+    },
+    "domain" : "103",
+    "subproperty" : [ "104", "105", "106" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "SuspectedReasonofCovid-19"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "TotalDoses"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasBoosterDoseVac"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "RecoveredCases"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "CountyrWise"
+    },
+    "superproperty" : [ "102" ],
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "TotalCasesInPunjab"
+    },
+    "domain" : "124",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "hasCausedAnySecondaryInfection"
+    },
+    "domain" : "127",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "hasIslamabadCases"
+    },
+    "domain" : "72",
+    "attributes" : [ "object", "external" ],
+    "id" : "133"
+  }, {
+    "range" : "47",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "47",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "nationality"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "isPatientVaccinated"
+    },
+    "domain" : "139",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasKPKCases"
+    },
+    "domain" : "97",
+    "attributes" : [ "object", "external" ],
+    "id" : "141"
+  }, {
+    "domain" : "73",
+    "range" : "11",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "48",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "SuspectedHost"
+    },
+    "domain" : "108",
+    "attributes" : [ "object", "external" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "hasFirstVaccineInPakistan"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasDose"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "151"
+  }, {
+    "range" : "32",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "72",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "32",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "FirstDose"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "157"
+  }, {
+    "range" : "1",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "hasCovidSymptoms"
+    },
+    "minCardinality" : "3",
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "ProvinceWise"
+    },
+    "superproperty" : [ "102" ],
+    "domain" : "97",
+    "attributes" : [ "object", "external" ],
+    "id" : "105"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "50",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "23",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "23",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "50",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf",
+    "inverse" : "102",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "Covid-19StatisticsOf"
+    },
+    "domain" : "50",
+    "attributes" : [ "object", "external" ],
+    "id" : "166"
+  }, {
+    "range" : "50",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "range" : "45",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn",
+    "inverse" : "170",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "AdmittedIn"
+    },
+    "domain" : "31",
+    "attributes" : [ "object", "external" ],
+    "id" : "169"
+  }, {
+    "range" : "19",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "hasSindhCases"
+    },
+    "domain" : "97",
+    "attributes" : [ "object", "external" ],
+    "id" : "172"
+  }, {
+    "range" : "23",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasGilgitCases"
+    },
+    "domain" : "72",
+    "attributes" : [ "object", "external" ],
+    "id" : "174"
+  }, {
+    "range" : "23",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "TotalCases"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "TotalCasesInBalochistan"
+    },
+    "domain" : "98",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "Source"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "178"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasFullyVaccinated"
+    },
+    "domain" : "23",
+    "attributes" : [ "object", "external" ],
+    "id" : "179"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "Population"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "hasPunjabCases"
+    },
+    "domain" : "97",
+    "attributes" : [ "object", "external" ],
+    "id" : "181"
+  }, {
+    "range" : "19",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "5",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "19",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasAdmittedPatient"
+    },
+    "domain" : "18",
+    "attributes" : [ "object", "external" ],
+    "id" : "170"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "5",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "5",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "18",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "189"
+  }, {
+    "range" : "18",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "18",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "18",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "97",
+    "domain" : "160",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "97",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom",
+    "inverse" : "21",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "ContractedVirusFrom"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "195"
+  }, {
+    "range" : "97",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "22",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "101",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "72",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "85",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "29",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "24",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "22",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "22",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "97",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "22",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "22",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took",
+    "inverse" : "56",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "Took"
+    },
+    "domain" : "48",
+    "attributes" : [ "object", "external" ],
+    "id" : "209"
+  }, {
+    "range" : "6",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "22",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "22",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "6",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "CovidExposure"
+    },
+    "domain" : "108",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "ProvinceTotalCovidCases"
+    },
+    "domain" : "147",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasCountry"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "external" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "FullyVaccinated"
+    },
+    "domain" : "25",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "CountryCode"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "218"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "TerristrialWise"
+    },
+    "superproperty" : [ "102" ],
+    "domain" : "72",
+    "attributes" : [ "object", "external" ],
+    "id" : "106"
+  }, {
+    "range" : "103",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "72",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "iri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh",
+    "baseIri" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "TotalCasesInSindh"
+    },
+    "domain" : "160",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "221"
+  }, {
+    "range" : "72",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "103",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "103",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  } ]
+}

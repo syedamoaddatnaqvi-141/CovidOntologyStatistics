@@ -1,0 +1,1091 @@
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom> <http://www.w3.org/2002/07/owl#inverseOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took> <http://www.w3.org/2002/07/owl#inverseOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis> <http://www.w3.org/2002/07/owl#inverseOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#anyURI> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#minCardinality> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> <http://www.w3.org/2002/07/owl#disjointWith> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#unionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> <http://www.w3.org/2002/07/owl#disjointWith> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild> <http://www.w3.org/2002/07/owl#disjointWith> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid24 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate> <http://www.w3.org/2002/07/owl#disjointWith> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid27 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe> <http://www.w3.org/2002/07/owl#disjointWith> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid31 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender> <http://www.w3.org/2002/07/owl#disjointWith> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid34 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated> <http://www.w3.org/2002/07/owl#disjointWith> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus> .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> "Alpha"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan> "08 May 2021"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.covid.gov.pk/"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan> "506018"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "Disease \"BloodPressure\""@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "BreathingIssue"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "Disease \"Cancer\""@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase> "\"Dec 2019\""@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://health.ucsd.edu/news/releases/Pages/2021-03-18-novel-coronavirus-circulated-undetected-months-before-first-covid-19-cases-in-wuhan-china.aspx"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> "CloseContact"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> "1530143"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.worldometers.info/coronavirus/country/pakistan/"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> "CoughSymptom"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases> "30379"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.worldometers.info/coronavirus/country/pakistan/"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> "Delta"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> "Disease \"Diarrhea\""@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "DryCough"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "Feeling Tired"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> "Gathering"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "GatheringnotAllowed"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan> "11737"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> "Headache"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "Disease \"HeartAttack\""@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> "ExposureToCovid"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> "ExposureToCovid"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure> "InfectedFamilyMember"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad> "135178"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK> "219460"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir> "43310"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes> "Omicron"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> "OtherCommonDiseaseSymptoms"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "OtherCommonDiseases"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "Symptom PainInThroat"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "BordersClosed"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage> "1.18%"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage> "34.82%"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode> "+92"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population> "229.6 Million"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://countrycode.org/pakistan"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://hdr.undp.org/content/unleashing-potential-young-pakistan"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.statista.com/statistics/678275/pakistan-children-as-a-percentage-of-the-population/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.worldometers.info/world-population/pakistan-population/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage> "64%"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid> "Pneumonia"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab> "506018"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> "1496123"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://www.worldometers.info/coronavirus/country/pakistan/"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "SevereBodyPain"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "SevereFever"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "SeverPneumonia"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh> "576769"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "SmartLockDown"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "Sneezing"@en .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source> "https://covid.gov.pk/"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "Disease \"Sugar\""@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "Suspension_Of_Flights"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "useOfFaceMasks"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms> "nasalCongesion"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases> "noOtherDisease"@en .
+# 
+# https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance> .
+<https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance> <https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures> "6FeetDistance"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

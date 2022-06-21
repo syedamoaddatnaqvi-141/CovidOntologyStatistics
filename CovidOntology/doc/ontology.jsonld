@@ -1,0 +1,1929 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    }, {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"
+    }, {
+      "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+    } ]
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "6FeetDistance"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes" : [ {
+    "@language" : "en",
+    "@value" : "Alpha"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan" : [ {
+    "@language" : "en",
+    "@value" : "08 May 2021"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://www.covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://www.covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan" : [ {
+    "@language" : "en",
+    "@value" : "506018"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "Disease \"BloodPressure\""
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "BreathingIssue"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "Disease \"Cancer\""
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase" : [ {
+    "@language" : "en",
+    "@value" : "\"Dec 2019\""
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://health.ucsd.edu/news/releases/Pages/2021-03-18-novel-coronavirus-circulated-undetected-months-before-first-covid-19-cases-in-wuhan-china.aspx"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure" : [ {
+    "@language" : "en",
+    "@value" : "CloseContact"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases" : [ {
+    "@language" : "en",
+    "@value" : "1530143"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://www.worldometers.info/coronavirus/country/pakistan/"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid" : [ {
+    "@language" : "en",
+    "@value" : "CoughSymptom"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases" : [ {
+    "@language" : "en",
+    "@value" : "30379"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://www.worldometers.info/coronavirus/country/pakistan/"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes" : [ {
+    "@language" : "en",
+    "@value" : "Delta"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid" : [ {
+    "@language" : "en",
+    "@value" : "Disease \"Diarrhea\""
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "DryCough"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "Feeling Tired"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure" : [ {
+    "@language" : "en",
+    "@value" : "Gathering"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "GatheringnotAllowed"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan" : [ {
+    "@language" : "en",
+    "@value" : "11737"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid" : [ {
+    "@language" : "en",
+    "@value" : "Headache"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "Disease \"HeartAttack\""
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure" : [ {
+    "@language" : "en",
+    "@value" : "ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure" : [ {
+    "@language" : "en",
+    "@value" : "ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure" : [ {
+    "@language" : "en",
+    "@value" : "InfectedFamilyMember"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad" : [ {
+    "@language" : "en",
+    "@value" : "135178"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK" : [ {
+    "@language" : "en",
+    "@value" : "219460"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir" : [ {
+    "@language" : "en",
+    "@value" : "43310"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes" : [ {
+    "@language" : "en",
+    "@value" : "Omicron"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid" : [ {
+    "@language" : "en",
+    "@value" : "OtherCommonDiseaseSymptoms"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "OtherCommonDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "Symptom PainInThroat"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "BordersClosed"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage" : [ {
+    "@language" : "en",
+    "@value" : "1.18%"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage" : [ {
+    "@language" : "en",
+    "@value" : "34.82%"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode" : [ {
+    "@language" : "en",
+    "@value" : "+92"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population" : [ {
+    "@language" : "en",
+    "@value" : "229.6 Million"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://countrycode.org/pakistan"
+  }, {
+    "@language" : "en",
+    "@value" : "https://hdr.undp.org/content/unleashing-potential-young-pakistan"
+  }, {
+    "@language" : "en",
+    "@value" : "https://www.statista.com/statistics/678275/pakistan-children-as-a-percentage-of-the-population/"
+  }, {
+    "@language" : "en",
+    "@value" : "https://www.worldometers.info/world-population/pakistan-population/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage" : [ {
+    "@language" : "en",
+    "@value" : "64%"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid" : [ {
+    "@language" : "en",
+    "@value" : "Pneumonia"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab" : [ {
+    "@language" : "en",
+    "@value" : "506018"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases" : [ {
+    "@language" : "en",
+    "@value" : "1496123"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://www.worldometers.info/coronavirus/country/pakistan/"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "SevereBodyPain"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "SevereFever"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "SeverPneumonia"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh" : [ {
+    "@language" : "en",
+    "@value" : "576769"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "SmartLockDown"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "Sneezing"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source" : [ {
+    "@language" : "en",
+    "@value" : "https://covid.gov.pk/"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "Disease \"Sugar\""
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "Suspension_Of_Flights"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures" : [ {
+    "@language" : "en",
+    "@value" : "useOfFaceMasks"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms" : [ {
+    "@language" : "en",
+    "@value" : "nasalCongesion"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases" : [ {
+    "@language" : "en",
+    "@value" : "noOtherDisease"
+  } ],
+  "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"
+  } ]
+}, {
+  "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"
+  } ]
+} ]

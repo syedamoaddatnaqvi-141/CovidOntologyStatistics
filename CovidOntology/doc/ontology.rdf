@@ -1,0 +1,2019 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"
+     xml:base="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:COVID-Statistics="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#">
+    <owl:Ontology rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdmittedIn">
+        <owl:inverseOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ContractedVirusFrom">
+        <owl:inverseOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountyrWise">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Covid-19StatisticsOf">
+        <owl:inverseOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidSpreadFrom">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PassedVirusTo">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PatientSymptoms">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWise">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedHost">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19 -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SuspectedReasonofCovid-19">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWise">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Took">
+        <owl:inverseOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasAdmittedPatient">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBalochistanCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasBoosterDoseVac">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCountry">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidVariants">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis">
+        <owl:inverseOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDose">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDoseType">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstDose">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFirstVaccineInPakistan">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasFullyVaccinated">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGender">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasGilgitCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasIslamabadCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKPKCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasKashmirCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasOtherDiseases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasPunjabCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasSindhCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasStatistics">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTakenBy">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasTotalDosesAdmiistered">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isDiagnosedOf">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nationality">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#wasSpreadBy">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"/>
+        <rdfs:range rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AdultsPopulationPercentage">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CaseID">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ChildrenPopulationPercentage">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryCode">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidExposure">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasedCases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DoseType">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstCovidCase">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstDose">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccineInPakistan">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Metrics">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Population">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Source">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCases">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInBalochistan">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInGilgitBaltistan">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInIslamabad">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKPK">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInKashmir">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInPunjab">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalCasesInSindh">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceTotalCovidCases"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes">
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#YouthPopulationPercentage">
+        <rdfs:subPropertyOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PopulationPercentage"/>
+        <rdfs:domain rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCausedAnySecondaryInfection">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientSufferedFromCovid">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated -->
+
+
+    <owl:DatatypeProperty rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#isPatientVaccinated">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AzadKashmir">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Balochistan">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BoosterDose">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidCareCenter">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasCovidSymptoms"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DiagnosedWithCovid">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Doctor">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FullyVaccinated">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GenderType">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistan">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthOrganization">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Islamabad">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPK">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderna">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#NCOC">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Organization">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity"/>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Punjab">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Severe">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#hasDiagnosis"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Mild"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Moderate"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sindh">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Provinces"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SinoVac">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sinopharm">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialAreas">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TotalDoses">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Transgender">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Female"/>
+                    <rdf:Description rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Male"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UntestedForCovid">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccinated">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+        <owl:disjointWith rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Vaccination"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidVariants"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#non-Vaccinated">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Patient"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#novaVax">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nurse">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HealthCareProfessionals"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Diagnosis"/>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/FirstDose">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VaccinationStatus"/>
+    </owl:Class>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer -->
+
+
+    <owl:Class rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/Pfizer">
+        <rdfs:subClassOf rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DosesTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"/>
+        <COVID-Statistics:hasCovidVariants rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Alpha"/>
+        <COVID-Statistics:VariantTypes xml:lang="en">Alpha</COVID-Statistics:VariantTypes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FirstVaccinationDoseInPakistan"/>
+        <COVID-Statistics:hasFirstVaccineInPakistan rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#AstraZeneca"/>
+        <COVID-Statistics:FirstVaccineInPakistan xml:lang="en">08 May 2021</COVID-Statistics:FirstVaccineInPakistan>
+        <COVID-Statistics:Source xml:lang="en">https://www.covid.gov.pk/</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+        <COVID-Statistics:hasBalochistanCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BalochistanCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://www.covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInBalochistan xml:lang="en">506018</COVID-Statistics:TotalCasesInBalochistan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BloodPressure"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">Disease &quot;BloodPressure&quot;</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#BreathingIssue"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">BreathingIssue</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cancer"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">Disease &quot;Cancer&quot;</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidOrigin"/>
+        <COVID-Statistics:FirstCovidSpreadFrom rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#China"/>
+        <COVID-Statistics:FirstCovidCase xml:lang="en">&quot;Dec 2019&quot;</COVID-Statistics:FirstCovidCase>
+        <COVID-Statistics:Source xml:lang="en">https://health.ucsd.edu/news/releases/Pages/2021-03-18-novel-coronavirus-circulated-undetected-months-before-first-covid-19-cases-in-wuhan-china.aspx</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <COVID-Statistics:SuspectedHost rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CloseContact"/>
+        <COVID-Statistics:CovidExposure xml:lang="en">CloseContact</COVID-Statistics:CovidExposure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"/>
+        <COVID-Statistics:CountyrWise rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ConfirmedCases"/>
+        <COVID-Statistics:ConfirmedCases xml:lang="en">1530143</COVID-Statistics:ConfirmedCases>
+        <COVID-Statistics:Source xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <COVID-Statistics:PatientSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Cough"/>
+        <COVID-Statistics:SymptomsOtherThanCovid xml:lang="en">CoughSymptom</COVID-Statistics:SymptomsOtherThanCovid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"/>
+        <COVID-Statistics:CountyrWise rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DeceasesCases"/>
+        <COVID-Statistics:DeceasedCases xml:lang="en">30379</COVID-Statistics:DeceasedCases>
+        <COVID-Statistics:Source xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"/>
+        <COVID-Statistics:hasCovidVariants rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Delta"/>
+        <COVID-Statistics:VariantTypes xml:lang="en">Delta</COVID-Statistics:VariantTypes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <COVID-Statistics:PatientSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Diarrhea"/>
+        <COVID-Statistics:SymptomsOtherThanCovid xml:lang="en">Disease &quot;Diarrhea&quot;</COVID-Statistics:SymptomsOtherThanCovid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#DryCough"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">DryCough</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#FeelingTired"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">Feeling Tired</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <COVID-Statistics:SuspectedHost rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Gathering"/>
+        <COVID-Statistics:CovidExposure xml:lang="en">Gathering</COVID-Statistics:CovidExposure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GatheringsNotAllowed"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">GatheringnotAllowed</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+        <COVID-Statistics:hasGilgitCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#GilgitBaltistanCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInGilgitBaltistan xml:lang="en">11737</COVID-Statistics:TotalCasesInGilgitBaltistan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <COVID-Statistics:PatientSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Headache"/>
+        <COVID-Statistics:SymptomsOtherThanCovid xml:lang="en">Headache</COVID-Statistics:SymptomsOtherThanCovid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#HeartAttack"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">Disease &quot;HeartAttack&quot;</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <COVID-Statistics:SuspectedHost rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Passenger"/>
+        <COVID-Statistics:CovidExposure xml:lang="en">ExposureToCovid</COVID-Statistics:CovidExposure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <COVID-Statistics:SuspectedHost rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedCo-Worker"/>
+        <COVID-Statistics:CovidExposure xml:lang="en">ExposureToCovid</COVID-Statistics:CovidExposure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ExposureToCovid"/>
+        <COVID-Statistics:SuspectedHost rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#InfectedFamilyMember"/>
+        <COVID-Statistics:CovidExposure xml:lang="en">InfectedFamilyMember</COVID-Statistics:CovidExposure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+        <COVID-Statistics:hasIslamabadCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#IslamabadCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInIslamabad xml:lang="en">135178</COVID-Statistics:TotalCasesInIslamabad>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+        <COVID-Statistics:hasKPKCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KPKCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInKPK xml:lang="en">219460</COVID-Statistics:TotalCasesInKPK>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#TerristrialWiseStatistics"/>
+        <COVID-Statistics:hasKashmirCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#KashmirCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInKashmir xml:lang="en">43310</COVID-Statistics:TotalCasesInKashmir>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#VariantTypes"/>
+        <COVID-Statistics:hasCovidVariants rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Omicron"/>
+        <COVID-Statistics:VariantTypes xml:lang="en">Omicron</COVID-Statistics:VariantTypes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <COVID-Statistics:PatientSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherCommonSymptoms"/>
+        <COVID-Statistics:SymptomsOtherThanCovid xml:lang="en">OtherCommonDiseaseSymptoms</COVID-Statistics:SymptomsOtherThanCovid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Others"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">OtherCommonDiseases</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PainInThroat"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">Symptom PainInThroat</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PakBordersClosed"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">BordersClosed</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Country"/>
+        <COVID-Statistics:hasCountry rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pakistan"/>
+        <COVID-Statistics:AdultsPopulationPercentage xml:lang="en">1.18%</COVID-Statistics:AdultsPopulationPercentage>
+        <COVID-Statistics:ChildrenPopulationPercentage xml:lang="en">34.82%</COVID-Statistics:ChildrenPopulationPercentage>
+        <COVID-Statistics:CountryCode xml:lang="en">+92</COVID-Statistics:CountryCode>
+        <COVID-Statistics:Population xml:lang="en">229.6 Million</COVID-Statistics:Population>
+        <COVID-Statistics:Source xml:lang="en">https://countrycode.org/pakistan</COVID-Statistics:Source>
+        <COVID-Statistics:Source xml:lang="en">https://hdr.undp.org/content/unleashing-potential-young-pakistan</COVID-Statistics:Source>
+        <COVID-Statistics:Source xml:lang="en">https://www.statista.com/statistics/678275/pakistan-children-as-a-percentage-of-the-population/</COVID-Statistics:Source>
+        <COVID-Statistics:Source xml:lang="en">https://www.worldometers.info/world-population/pakistan-population/</COVID-Statistics:Source>
+        <COVID-Statistics:YouthPopulationPercentage xml:lang="en">64%</COVID-Statistics:YouthPopulationPercentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SymptomsOtherThanCovid"/>
+        <COVID-Statistics:PatientSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Pneumonia"/>
+        <COVID-Statistics:SymptomsOtherThanCovid xml:lang="en">Pneumonia</COVID-Statistics:SymptomsOtherThanCovid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+        <COVID-Statistics:hasPunjabCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PunjabCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInPunjab xml:lang="en">506018</COVID-Statistics:TotalCasesInPunjab>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CountryWiseStatistics"/>
+        <COVID-Statistics:CountyrWise rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#RecoveredCases"/>
+        <COVID-Statistics:RecoveredCases xml:lang="en">1496123</COVID-Statistics:RecoveredCases>
+        <COVID-Statistics:Source xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereBodyPain"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">SevereBodyPain</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SevereFever"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">SevereFever</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SeverePneuomonia"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">SeverPneumonia</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#ProvinceWiseStatistics"/>
+        <COVID-Statistics:hasSindhCases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SindhCases"/>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+        <COVID-Statistics:TotalCasesInSindh xml:lang="en">576769</COVID-Statistics:TotalCasesInSindh>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#SmartLockdown"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">SmartLockDown</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sneezing"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">Sneezing</COVID-Statistics:CovidSymptoms>
+        <COVID-Statistics:Source xml:lang="en">https://covid.gov.pk/</COVID-Statistics:Source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Sugar"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">Disease &quot;Sugar&quot;</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#Suspesion_Of_Flights"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">Suspension_Of_Flights</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#UseFaceMasks"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">useOfFaceMasks</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#CovidSymptoms"/>
+        <COVID-Statistics:hasCovidSymptoms rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#nasalCongesion"/>
+        <COVID-Statistics:CovidSymptoms xml:lang="en">nasalCongesion</COVID-Statistics:CovidSymptoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#OtherDiseases"/>
+        <COVID-Statistics:hasOtherDiseases rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#none"/>
+        <COVID-Statistics:OtherDiseases xml:lang="en">noOtherDisease</COVID-Statistics:OtherDiseases>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance -->
+
+
+    <owl:NamedIndividual rdf:about="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance">
+        <rdf:type rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#PreventiveMeasures"/>
+        <COVID-Statistics:hasTakenBy rdf:resource="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+        <COVID-Statistics:PreventiveMeasures xml:lang="en">6FeetDistance</COVID-Statistics:PreventiveMeasures>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
