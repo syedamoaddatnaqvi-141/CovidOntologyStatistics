@@ -1,0 +1,2342 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/">
+    <Prefix name="" IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="smn" IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI="smn:AstraZeneca"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:AzadKashmir"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Balochistan"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:BoosterDose"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Country"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:CovidCareCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:CovidOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:CovidVariants"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:DiagnosedWithCovid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Female"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:FirstVaccinationDoseInPakistan"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:FullyVaccinated"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:GenderType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:GilgitBaltistan"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:HealthCareProfessionals"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:HealthOrganization"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Islamabad"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:KPK"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Male"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Mild"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Moderna"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:NCOC"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Person"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Place"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Punjab"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Severe"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Sindh"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:SinoVac"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Sinopharm"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:TotalDoses"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Transgender"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:UntestedForCovid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Vaccinated"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:non-Vaccinated"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:novaVax"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="smn:nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FirstDose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pfizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:AdmittedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:ContractedVirusFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:Covid-19StatisticsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:FirstCovidSpreadFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:PassedVirusTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:ProvinceWise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedReasonofCovid-19"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:TerristrialWise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:Took"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasAdmittedPatient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasBalochistanCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasBoosterDoseVac"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasDose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasDoseType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstDose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstVaccineInPakistan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasFullyVaccinated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasGilgitCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasIslamabadCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasKPKCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasKashmirCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasPunjabCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasSindhCases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:hasTotalDosesAdmiistered"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:isDiagnosedOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:nationality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="smn:wasSpreadBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:AdultsPopulationPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:BoosterDose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:CaseID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:ChildrenPopulationPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:ConfirmedCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:DeceasedCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:DoseType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:FirstCovidCase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:FirstDose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:FirstVaccineInPakistan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:FullyVaccinated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:Metrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:Place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:Population"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:RecoveredCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCases"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInBalochistan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInGilgitBaltistan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInIslamabad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKPK"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKashmir"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInPunjab"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInSindh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:TotalDoses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:YouthPopulationPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:hasCausedAnySecondaryInfection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:isPatientSufferedFromCovid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="smn:isPatientVaccinated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Alpha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:BloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:BreathingIssue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Cancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:CloseContact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Cough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Delta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:DryCough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:FeelingTired"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Gathering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:GatheringsNotAllowed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Headache"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:HeartAttack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Passenger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Worker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:InfectedFamilyMember"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Omicron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:OtherCommonSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Others"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:PainInThroat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:PakBordersClosed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Pneumonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:SevereBodyPain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:SevereFever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:SeverePneuomonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:SmartLockdown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Sugar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:Suspesion_Of_Flights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:UseFaceMasks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:nasalCongesion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="smn:none"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="smn:GenderType"/>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="smn:Female"/>
+            <Class abbreviatedIRI="smn:Male"/>
+            <Class abbreviatedIRI="smn:Transgender"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="smn:Severe"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty abbreviatedIRI="smn:hasDiagnosis"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:AstraZeneca"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:AzadKashmir"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Balochistan"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:BoosterDose"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Country"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:CovidCareCenter"/>
+        <Class abbreviatedIRI="smn:Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:DiagnosedWithCovid"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Doctor"/>
+        <Class abbreviatedIRI="smn:HealthCareProfessionals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Female"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:FirstVaccinationDoseInPakistan"/>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:FullyVaccinated"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:GilgitBaltistan"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:HealthCareProfessionals"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:HealthOrganization"/>
+        <Class abbreviatedIRI="smn:Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Islamabad"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:KPK"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Male"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Mild"/>
+        <Class IRI="Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Moderate"/>
+        <Class IRI="Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Moderna"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:NCOC"/>
+        <Class abbreviatedIRI="smn:Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Organization"/>
+        <Class abbreviatedIRI="smn:Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Patient"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Person"/>
+        <Class abbreviatedIRI="smn:Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Provinces"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Punjab"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Severe"/>
+        <Class IRI="Diagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Sindh"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:SinoVac"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Sinopharm"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:TotalDoses"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Transgender"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:UntestedForCovid"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:Vaccinated"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+        <Class abbreviatedIRI="smn:CovidVariants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:non-Vaccinated"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:novaVax"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="smn:nurse"/>
+        <Class abbreviatedIRI="smn:HealthCareProfessionals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FirstDose"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pfizer"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Female"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Male"/>
+            <Class abbreviatedIRI="smn:Transgender"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:FullyVaccinated"/>
+        <Class IRI="FirstDose"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Male"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Female"/>
+            <Class abbreviatedIRI="smn:Transgender"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Mild"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Moderate"/>
+            <Class abbreviatedIRI="smn:Severe"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Moderate"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Mild"/>
+            <Class abbreviatedIRI="smn:Severe"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Organization"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Provinces"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Severe"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Mild"/>
+            <Class abbreviatedIRI="smn:Moderate"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Transgender"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Female"/>
+            <Class abbreviatedIRI="smn:Male"/>
+        </ObjectIntersectionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="smn:Vaccinated"/>
+        <Class abbreviatedIRI="smn:non-Vaccinated"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:FirstVaccinationDoseInPakistan"/>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:BloodPressure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:BreathingIssue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Cancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidOrigin"/>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:CloseContact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Cough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Delta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Diarrhea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:DryCough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:FeelingTired"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Gathering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:GatheringsNotAllowed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Headache"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:HeartAttack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Passenger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Worker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedFamilyMember"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Omicron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:OtherCommonSymptoms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Others"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:PainInThroat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:PakBordersClosed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:Country"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Pneumonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereBodyPain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereFever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SeverePneuomonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:SmartLockdown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Sugar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:Suspesion_Of_Flights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:UseFaceMasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:nasalCongesion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:none"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+        <NamedIndividual abbreviatedIRI="smn:Alpha"/>
+        <NamedIndividual abbreviatedIRI="smn:Alpha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstVaccineInPakistan"/>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasBalochistanCases"/>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:BloodPressure"/>
+        <NamedIndividual abbreviatedIRI="smn:BloodPressure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:BreathingIssue"/>
+        <NamedIndividual abbreviatedIRI="smn:BreathingIssue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Cancer"/>
+        <NamedIndividual abbreviatedIRI="smn:Cancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:FirstCovidSpreadFrom"/>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <NamedIndividual abbreviatedIRI="smn:CloseContact"/>
+        <NamedIndividual abbreviatedIRI="smn:CloseContact"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Cough"/>
+        <NamedIndividual abbreviatedIRI="smn:Cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+        <NamedIndividual abbreviatedIRI="smn:Delta"/>
+        <NamedIndividual abbreviatedIRI="smn:Delta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Diarrhea"/>
+        <NamedIndividual abbreviatedIRI="smn:Diarrhea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:DryCough"/>
+        <NamedIndividual abbreviatedIRI="smn:DryCough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:FeelingTired"/>
+        <NamedIndividual abbreviatedIRI="smn:FeelingTired"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <NamedIndividual abbreviatedIRI="smn:Gathering"/>
+        <NamedIndividual abbreviatedIRI="smn:Gathering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual abbreviatedIRI="smn:GatheringsNotAllowed"/>
+        <NamedIndividual abbreviatedIRI="smn:GatheringsNotAllowed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasGilgitCases"/>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Headache"/>
+        <NamedIndividual abbreviatedIRI="smn:Headache"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:HeartAttack"/>
+        <NamedIndividual abbreviatedIRI="smn:HeartAttack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Passenger"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Passenger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Worker"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Worker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedFamilyMember"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedFamilyMember"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasIslamabadCases"/>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasKPKCases"/>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasKashmirCases"/>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+        <NamedIndividual abbreviatedIRI="smn:Omicron"/>
+        <NamedIndividual abbreviatedIRI="smn:Omicron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:OtherCommonSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:OtherCommonSymptoms"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Others"/>
+        <NamedIndividual abbreviatedIRI="smn:Others"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:PainInThroat"/>
+        <NamedIndividual abbreviatedIRI="smn:PainInThroat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual abbreviatedIRI="smn:PakBordersClosed"/>
+        <NamedIndividual abbreviatedIRI="smn:PakBordersClosed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCountry"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Pneumonia"/>
+        <NamedIndividual abbreviatedIRI="smn:Pneumonia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasPunjabCases"/>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereBodyPain"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereBodyPain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereFever"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereFever"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SeverePneuomonia"/>
+        <NamedIndividual abbreviatedIRI="smn:SeverePneuomonia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasSindhCases"/>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual abbreviatedIRI="smn:SmartLockdown"/>
+        <NamedIndividual abbreviatedIRI="smn:SmartLockdown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Sugar"/>
+        <NamedIndividual abbreviatedIRI="smn:Sugar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual abbreviatedIRI="smn:Suspesion_Of_Flights"/>
+        <NamedIndividual abbreviatedIRI="smn:Suspesion_Of_Flights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual abbreviatedIRI="smn:UseFaceMasks"/>
+        <NamedIndividual abbreviatedIRI="smn:UseFaceMasks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:nasalCongesion"/>
+        <NamedIndividual abbreviatedIRI="smn:nasalCongesion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:none"/>
+        <NamedIndividual abbreviatedIRI="smn:none"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <NamedIndividual IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+        <NamedIndividual IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Alpha"/>
+        <Literal xml:lang="en">Alpha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:FirstVaccineInPakistan"/>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+        <Literal xml:lang="en">08 May 2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:AstraZeneca"/>
+        <Literal xml:lang="en">https://www.covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+        <Literal xml:lang="en">https://www.covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInBalochistan"/>
+        <NamedIndividual abbreviatedIRI="smn:BalochistanCases"/>
+        <Literal xml:lang="en">506018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:BloodPressure"/>
+        <Literal xml:lang="en">Disease &quot;BloodPressure&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:BreathingIssue"/>
+        <Literal xml:lang="en">BreathingIssue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Cancer"/>
+        <Literal xml:lang="en">Disease &quot;Cancer&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:FirstCovidCase"/>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+        <Literal xml:lang="en">&quot;Dec 2019&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:China"/>
+        <Literal xml:lang="en">https://health.ucsd.edu/news/releases/Pages/2021-03-18-novel-coronavirus-circulated-undetected-months-before-first-covid-19-cases-in-wuhan-china.aspx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <NamedIndividual abbreviatedIRI="smn:CloseContact"/>
+        <Literal xml:lang="en">CloseContact</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:ConfirmedCases"/>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+        <Literal xml:lang="en">1530143</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:ConfirmedCases"/>
+        <Literal xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Cough"/>
+        <Literal xml:lang="en">CoughSymptom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:DeceasedCases"/>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+        <Literal xml:lang="en">30379</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:DeceasesCases"/>
+        <Literal xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Delta"/>
+        <Literal xml:lang="en">Delta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Diarrhea"/>
+        <Literal xml:lang="en">Disease &quot;Diarrhea&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:DryCough"/>
+        <Literal xml:lang="en">DryCough</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:FeelingTired"/>
+        <Literal xml:lang="en">Feeling Tired</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <NamedIndividual abbreviatedIRI="smn:Gathering"/>
+        <Literal xml:lang="en">Gathering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:GatheringsNotAllowed"/>
+        <Literal xml:lang="en">GatheringnotAllowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInGilgitBaltistan"/>
+        <NamedIndividual abbreviatedIRI="smn:GilgitBaltistanCases"/>
+        <Literal xml:lang="en">11737</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Headache"/>
+        <Literal xml:lang="en">Headache</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:HeartAttack"/>
+        <Literal xml:lang="en">Disease &quot;HeartAttack&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Passenger"/>
+        <Literal xml:lang="en">ExposureToCovid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedCo-Worker"/>
+        <Literal xml:lang="en">ExposureToCovid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <NamedIndividual abbreviatedIRI="smn:InfectedFamilyMember"/>
+        <Literal xml:lang="en">InfectedFamilyMember</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInIslamabad"/>
+        <NamedIndividual abbreviatedIRI="smn:IslamabadCases"/>
+        <Literal xml:lang="en">135178</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKPK"/>
+        <NamedIndividual abbreviatedIRI="smn:KPKCases"/>
+        <Literal xml:lang="en">219460</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKashmir"/>
+        <NamedIndividual abbreviatedIRI="smn:KashmirCases"/>
+        <Literal xml:lang="en">43310</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+        <NamedIndividual abbreviatedIRI="smn:Omicron"/>
+        <Literal xml:lang="en">Omicron</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:OtherCommonSymptoms"/>
+        <Literal xml:lang="en">OtherCommonDiseaseSymptoms</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Others"/>
+        <Literal xml:lang="en">OtherCommonDiseases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:PainInThroat"/>
+        <Literal xml:lang="en">Symptom PainInThroat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:PakBordersClosed"/>
+        <Literal xml:lang="en">BordersClosed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:AdultsPopulationPercentage"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">1.18%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:ChildrenPopulationPercentage"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">34.82%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CountryCode"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">+92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Population"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">229.6 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">https://countrycode.org/pakistan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">https://hdr.undp.org/content/unleashing-potential-young-pakistan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">https://www.statista.com/statistics/678275/pakistan-children-as-a-percentage-of-the-population/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">https://www.worldometers.info/world-population/pakistan-population/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:YouthPopulationPercentage"/>
+        <NamedIndividual abbreviatedIRI="smn:Pakistan"/>
+        <Literal xml:lang="en">64%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <NamedIndividual abbreviatedIRI="smn:Pneumonia"/>
+        <Literal xml:lang="en">Pneumonia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInPunjab"/>
+        <NamedIndividual abbreviatedIRI="smn:PunjabCases"/>
+        <Literal xml:lang="en">506018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:RecoveredCases"/>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+        <Literal xml:lang="en">1496123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:RecoveredCases"/>
+        <Literal xml:lang="en">https://www.worldometers.info/coronavirus/country/pakistan/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereBodyPain"/>
+        <Literal xml:lang="en">SevereBodyPain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SevereFever"/>
+        <Literal xml:lang="en">SevereFever</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:SeverePneuomonia"/>
+        <Literal xml:lang="en">SeverPneumonia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInSindh"/>
+        <NamedIndividual abbreviatedIRI="smn:SindhCases"/>
+        <Literal xml:lang="en">576769</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:SmartLockdown"/>
+        <Literal xml:lang="en">SmartLockDown</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+        <Literal xml:lang="en">Sneezing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <NamedIndividual abbreviatedIRI="smn:Sneezing"/>
+        <Literal xml:lang="en">https://covid.gov.pk/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:Sugar"/>
+        <Literal xml:lang="en">Disease &quot;Sugar&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:Suspesion_Of_Flights"/>
+        <Literal xml:lang="en">Suspension_Of_Flights</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual abbreviatedIRI="smn:UseFaceMasks"/>
+        <Literal xml:lang="en">useOfFaceMasks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <NamedIndividual abbreviatedIRI="smn:nasalCongesion"/>
+        <Literal xml:lang="en">nasalCongesion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <NamedIndividual abbreviatedIRI="smn:none"/>
+        <Literal xml:lang="en">noOtherDisease</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <NamedIndividual IRI="https://syedamoaddatnaqvi-141.github.io/COVID-Statistics#6FeetDistance"/>
+        <Literal xml:lang="en">6FeetDistance</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="smn:ProvinceWise"/>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="smn:TerristrialWise"/>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="smn:AdmittedIn"/>
+        <ObjectProperty abbreviatedIRI="smn:hasAdmittedPatient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="smn:ContractedVirusFrom"/>
+        <ObjectProperty abbreviatedIRI="smn:PassedVirusTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="smn:Covid-19StatisticsOf"/>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="smn:Took"/>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="smn:hasDiagnosis"/>
+        <ObjectProperty abbreviatedIRI="smn:isDiagnosedOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:AdmittedIn"/>
+        <Class abbreviatedIRI="smn:CovidCareCenter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:ContractedVirusFrom"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:Covid-19StatisticsOf"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:FirstCovidSpreadFrom"/>
+        <Class abbreviatedIRI="smn:CovidOrigin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:PassedVirusTo"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:ProvinceWise"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedReasonofCovid-19"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:TerristrialWise"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:Took"/>
+        <Class abbreviatedIRI="smn:NCOC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasAdmittedPatient"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasBalochistanCases"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasBoosterDoseVac"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasCountry"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+        <Class abbreviatedIRI="smn:CovidVariants"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasDiagnosis"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasDose"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasDoseType"/>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstDose"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstVaccineInPakistan"/>
+        <Class abbreviatedIRI="smn:Vaccination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasFullyVaccinated"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasGender"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasGilgitCases"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasIslamabadCases"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasKPKCases"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasKashmirCases"/>
+        <Class abbreviatedIRI="smn:TerristrialAreas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasPunjabCases"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasSindhCases"/>
+        <Class abbreviatedIRI="smn:Provinces"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:hasTotalDosesAdmiistered"/>
+        <Class abbreviatedIRI="smn:VaccinationStatus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:isDiagnosedOf"/>
+        <Class IRI="Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:nationality"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="smn:wasSpreadBy"/>
+        <Class abbreviatedIRI="smn:DiagnosedWithCovid"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:AdmittedIn"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:ContractedVirusFrom"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:CountyrWise"/>
+        <Class abbreviatedIRI="smn:CountryWiseStatistics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:Covid-19StatisticsOf"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:FirstCovidSpreadFrom"/>
+        <Class abbreviatedIRI="smn:CovidOrigin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:PassedVirusTo"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:PatientSymptoms"/>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:ProvinceWise"/>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedHost"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:SuspectedReasonofCovid-19"/>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:TerristrialWise"/>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:Took"/>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasAdmittedPatient"/>
+        <Class abbreviatedIRI="smn:CovidCareCenter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasBalochistanCases"/>
+        <Class abbreviatedIRI="smn:Balochistan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasBoosterDoseVac"/>
+        <Class abbreviatedIRI="smn:BoosterDose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasCountry"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidSymptoms"/>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasCovidVariants"/>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasDiagnosis"/>
+        <Class IRI="Diagnosis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasDose"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasDoseType"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstDose"/>
+        <Class IRI="FirstDose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasFirstVaccineInPakistan"/>
+        <Class abbreviatedIRI="smn:FirstVaccinationDoseInPakistan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasFullyVaccinated"/>
+        <Class abbreviatedIRI="smn:FullyVaccinated"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasGender"/>
+        <Class abbreviatedIRI="smn:GenderType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasGilgitCases"/>
+        <Class abbreviatedIRI="smn:GilgitBaltistan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasIslamabadCases"/>
+        <Class abbreviatedIRI="smn:Islamabad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasKPKCases"/>
+        <Class abbreviatedIRI="smn:KPK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasKashmirCases"/>
+        <Class abbreviatedIRI="smn:AzadKashmir"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasOtherDiseases"/>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasPunjabCases"/>
+        <Class abbreviatedIRI="smn:Punjab"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasSindhCases"/>
+        <Class abbreviatedIRI="smn:Sindh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasStatistics"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasTakenBy"/>
+        <Class abbreviatedIRI="smn:NCOC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:hasTotalDosesAdmiistered"/>
+        <Class abbreviatedIRI="smn:TotalDoses"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:isDiagnosedOf"/>
+        <Class abbreviatedIRI="smn:Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:nationality"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="smn:wasSpreadBy"/>
+        <Class abbreviatedIRI="smn:Person"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:AdultsPopulationPercentage"/>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+        <DataProperty abbreviatedIRI="smn:Metrics"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:ChildrenPopulationPercentage"/>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:ConfirmedCases"/>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:DeceasedCases"/>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+        <DataProperty abbreviatedIRI="smn:TotalCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:RecoveredCases"/>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+        <DataProperty abbreviatedIRI="smn:TotalCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInBalochistan"/>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInGilgitBaltistan"/>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInIslamabad"/>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKPK"/>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKashmir"/>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInPunjab"/>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInSindh"/>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="smn:YouthPopulationPercentage"/>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:AdultsPopulationPercentage"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:BoosterDose"/>
+        <Class abbreviatedIRI="smn:BoosterDose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:CaseID"/>
+        <Class abbreviatedIRI="smn:DiagnosedWithCovid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:ChildrenPopulationPercentage"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:ConfirmedCases"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:CountryCode"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <Class abbreviatedIRI="smn:ExposureToCovid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <Class abbreviatedIRI="smn:CovidSymptoms"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:DeceasedCases"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:DoseType"/>
+        <Class abbreviatedIRI="smn:DosesTypes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:FirstCovidCase"/>
+        <Class abbreviatedIRI="smn:CovidOrigin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:FirstDose"/>
+        <Class IRI="FirstDose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:FirstVaccineInPakistan"/>
+        <Class abbreviatedIRI="smn:FirstVaccinationDoseInPakistan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:FullyVaccinated"/>
+        <Class abbreviatedIRI="smn:FullyVaccinated"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:Metrics"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <Class abbreviatedIRI="smn:OtherDiseases"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:Place"/>
+        <Class abbreviatedIRI="smn:Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:Population"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <Class abbreviatedIRI="smn:PreventiveMeasures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+        <Class abbreviatedIRI="smn:ProvinceWiseStatistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:RecoveredCases"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <Class abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+        <Class abbreviatedIRI="smn:TerristrialWiseStatistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCases"/>
+        <Class abbreviatedIRI="smn:Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInBalochistan"/>
+        <Class abbreviatedIRI="smn:Balochistan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInGilgitBaltistan"/>
+        <Class abbreviatedIRI="smn:GilgitBaltistan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInIslamabad"/>
+        <Class abbreviatedIRI="smn:Islamabad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKPK"/>
+        <Class abbreviatedIRI="smn:KPK"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKashmir"/>
+        <Class abbreviatedIRI="smn:AzadKashmir"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInPunjab"/>
+        <Class abbreviatedIRI="smn:Punjab"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInSindh"/>
+        <Class abbreviatedIRI="smn:Sindh"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:TotalDoses"/>
+        <Class abbreviatedIRI="smn:TotalDoses"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+        <Class abbreviatedIRI="smn:VariantTypes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:YouthPopulationPercentage"/>
+        <Class abbreviatedIRI="smn:Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:hasCausedAnySecondaryInfection"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:OtherDiseases"/>
+            <Class abbreviatedIRI="smn:Patient"/>
+        </ObjectIntersectionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:isPatientSufferedFromCovid"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:DiagnosedWithCovid"/>
+            <Class abbreviatedIRI="smn:Patient"/>
+        </ObjectIntersectionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="smn:isPatientVaccinated"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="smn:Patient"/>
+            <Class abbreviatedIRI="smn:Vaccinated"/>
+        </ObjectIntersectionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:AdultsPopulationPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:BoosterDose"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:CaseID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:Cases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:ChildrenPopulationPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:ConfirmedCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:CountryCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:CovidExposure"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:CovidSymptoms"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:DeceasedCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:DoseType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:FirstCovidCase"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:FirstDose"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:FirstVaccineInPakistan"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:FullyVaccinated"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:Metrics"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:OtherDiseases"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:Place"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:Population"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:PopulationPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:PreventiveMeasures"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:ProvinceTotalCovidCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:RecoveredCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:Source"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:SymptomsOtherThanCovid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TerristrialTotalCovidCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCases"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInBalochistan"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInGilgitBaltistan"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInIslamabad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKPK"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInKashmir"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInPunjab"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalCasesInSindh"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:TotalDoses"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:VariantTypes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:YouthPopulationPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:hasCausedAnySecondaryInfection"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:isPatientSufferedFromCovid"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="smn:isPatientVaccinated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
